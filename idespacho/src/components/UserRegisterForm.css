@@ -1,0 +1,93 @@
+.register-form-container {
+  display: flex;
+  background: linear-gradient(110deg, #8c6022 70%,white 50%);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.form {
+  flex: 1;
+  margin-right: 100px;
+
+}
+
+h2 {
+  color: white;
+}
+
+label {
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+input[type="text"], input[type="file"], button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+}
+input[type="text"]{
+  font-size: 30px;
+}
+.birthdate-container input {
+  width: 10%;
+  margin: 0px 50px 0px 0px;
+}
+
+.gender-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 80px 10px 0px;
+}
+
+.photo-preview {
+  width: 150px;
+  height: 150px;
+  border: 2px dashed #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.photo-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+button {
+  background-color: #999;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.inputFecha{
+  border-radius: 5px;
+  height: 35px;
+  font-size: 20px;
+}
+
+.inline-label-input {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.inline-label-input input{
+  margin-left: 30px;
+}
